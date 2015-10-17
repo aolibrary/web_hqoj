@@ -1,0 +1,38 @@
+{
+  "name": "arale-upload",
+  "version": "1.2.0",
+  "description": "html5 uploader and iframe uploader.",
+  "homepage": "http://aralejs.org/upload/",
+  "author": "Hsiaoming Yang <me@lepture.com>",
+  "maintainers": [
+    "bunny090201 <tsjxyz@gmail.com>",
+    "lepture <me@lepture.com>"
+  ],
+  "keywords": [
+    "utility",
+    "upload",
+    "ajax upload",
+    "iframe upload"
+  ],
+  "devDependencies": {
+    "node-static": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aralejs/upload"
+  },
+  "bugs": {
+    "url": "https://github.com/aralejs/upload/issues"
+  },
+  "licenses": "BSD",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "1.7.2"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "buildArgs": "--ignore jquery"
+  }
+}

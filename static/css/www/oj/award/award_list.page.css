@@ -1,0 +1,45 @@
+
+.row-item {
+    margin: 10px -1px 10px 21px;
+    width: 222px;
+    height: 290px;
+    border: 1px solid #ddd;
+}
+
+.row-item:hover {
+    border-color: #f40;
+}
+
+.row-item-first {
+    margin-left: 0px;
+}
+
+.row-item-2 {
+    padding: 10px;
+    height: 20px;
+}
+
+.row-item-2 .price {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f40;
+}
+
+.row-item-2 .amount {
+    margin-top: 8px;
+}
+
+.row-item-3 {
+    padding: 10px;
+}
+
+.row-pager {
+    text-align: center;
+    clear: both;
+}
+
+.row-pager .widget-pager {
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+}

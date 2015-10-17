@@ -1,0 +1,42 @@
+
+.module-nav {
+    width: 100%;
+    min-width: 1200px;
+    background-color: #494949;
+}
+
+.module-nav .module-nav2 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 40px;
+    color: #fff;
+}
+
+.module-nav .module-nav2 .item {
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.module-nav .module-nav2 .item:hover,
+.module-nav .module-nav2 .item-hover {
+    color: #333;
+    background-color: #ddd;
+}
+
+.module-wrap {
+    padding: 10px 0;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.module-wrap2 {
+    margin: 0 auto;
+    width: 1200px;
+}

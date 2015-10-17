@@ -1,0 +1,226 @@
+.row-main {
+    
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.row-main .main-pic {
+    width: 500px;
+}
+
+.row-main .info {
+    width: 640px;
+    margin-left: 35px;
+    float: left;
+    display: inline-block;
+}
+
+.row-main .info .title {
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.row-main .info .price1,
+.row-main .info .price2,
+.row-main .info .send,
+.row-main .info .type,
+.row-main .info .step,
+.row-main .info .serve {
+    margin-top: 10px;
+}
+
+.row-main .info .step {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.row-main .info .amount {
+    margin-top: 10px;
+    height: 55px;
+    clear: both;
+}
+
+.row-main .info .label {
+    font-size: 14px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row-main .text {
+    font-size: 16px;
+}
+
+.row-main .price1 .text {
+    text-decoration: line-through;
+}
+
+.row-main .price2 .new {
+    padding: 3px;
+    color: #fff;
+    background-color: #f40;
+}
+
+.row-main .price2 .text {
+    color: #f40;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.row-main .type .type-item {
+    margin-bottom: 5px;
+    color: #333;
+    padding: 5px 30px;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.row-main .type .type-item:hover,
+.row-main .type .selected {
+    border-color: #f40;
+}
+
+.row-main .info .amount .op {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.row-main .info .amount .input {
+    width: 40px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.row-main .info .buy {
+    padding-left: 39px;
+}
+
+.row-main .info .buy .buy-btn {
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e5511d;
+    background-color: #ffe4d0;
+    display: inline-block;
+    border: 1px solid #f0cab6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.row-main .info .buy .buy-btn:hover {
+    border-color: #f0cab6;
+    background: #ffd9bc;
+}
+
+.row-main .info .buy .cart-btn {
+    margin-left: 60px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f40;
+    display: inline-block;
+    border: 1px solid #f40;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.row-main .info .buy .cart-btn-empty {
+    cursor: no-drop;
+    margin-left: 60px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    background-color: #ddd;
+    display: inline-block;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.row-main .info .buy .cart-btn:hover {
+    border-color: #f22d00;
+    background: #f22d00;
+}
+
+.row-tab {
+    margin-top: 10px;
+    height: 47px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    clear: both;
+}
+
+.row-tab .item {
+    float: left;
+    color: #333;
+    width: 180px;
+    text-align: center;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    border-right: 1px solid #ddd;
+    display: inline-block;
+}
+
+.row-tab .selected {
+    border-top: 3px solid red;
+    color: red;
+    background-color: #fff;
+}
+
+.row-content {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.row-make {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
