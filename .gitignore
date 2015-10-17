@@ -1,0 +1,7 @@
+.buildpath
+.DS_Store
+.project
+.settings/
+.idea/
+library/config_real
+data
